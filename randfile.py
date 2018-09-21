@@ -8,7 +8,7 @@ from tkinter import Tk,StringVar,filedialog
 from tkinter.ttk import Entry,Label,Button,Frame,LabelFrame,OptionMenu
 from sqlite3 import connect,Connection
 from argparse import ArgumentParser
-from ttkthemes import ThemedStyle
+#from ttkthemes import ThemedStyle
 
 class Cx(object):
     def __init__(self,cx):
@@ -169,7 +169,7 @@ class App(Frame):
 
 
 app = App()
-app.style = ThemedStyle()
-print("app.style.theme_names():",app.style.theme_names())
-app.style.set_theme(argument.theme)
+# app.style = ThemedStyle()
+# print("app.style.theme_names():",app.style.theme_names())
+# app.style.set_theme(argument.theme)
 app.mainloop()
