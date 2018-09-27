@@ -1,15 +1,14 @@
-randfile.py
-===
 
+usage:
 
-[windows executable](https://github.com/dustractor/randfile/releases/download/winexe1/randfile.exe)
+    py randfile.py <source> <dest>
 
-Use parameter ``--get`` to make it do the thing.
+works best with AutoHotKey
 
-Otherwise it will show a tk gui for the settings:  input, extension filter, and output.
+example of what to put in your ahk script:
 
-Pro-tip: Use autohotkey to bind it to something.  Example:
-
-    #Z:: Run, C:\Users\you\whereja\put\randfile.exe --get
+    #F12:: Run, c:\Python37\python.exe c:\users\yourname\wherever_you_put\randfile.py F:\wtf c:\users\yourname\Desktop
+    
+so then pressing win+f12 puts a random file from wtf to your desktop
 
 
